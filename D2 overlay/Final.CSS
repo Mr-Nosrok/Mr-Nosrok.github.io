@@ -6,7 +6,19 @@
     /*    margin-left: -375px;
         margin-top: -285px;*/
 }
- 
+
+.xbox.white {
+    background: url(D2 overlay.png);
+}
+
+.xbox.disconnected {
+    background: url(xbox-assets/disconnected.svg);
+}
+
+.xbox.disconnected div {
+    display: none;
+}
+
 .xbox .triggers {
     width: 446px;
     height: 121px;
