@@ -1,10 +1,22 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-    background: url('D2 overlay.png');
+    background: url(D2 overlay.png);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
         margin-top: -285px;*/
+}
+
+.xbox.white {
+    background: url(D2 overlay.png);
+}
+
+.xbox.disconnected {
+    background: url(D2 overlay.png);
+}
+
+.xbox.disconnected div {
+    display: none;
 }
 
 .xbox .triggers {
